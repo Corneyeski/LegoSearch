@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.alanv.legosearch.ListViewBox">
+
+    <ImageView
+        android:id="@+id/boxImage"
+        android:layout_width="152dp"
+        android:layout_height="145dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/parts"
+        android:layout_width="50dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="8dp"
+        android:text="Parts:"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <TextView
+        android:id="@+id/realeased"
+        android:layout_width="73dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="8dp"
+        android:text="Released:"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parts" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="50dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="2dp"
+        android:text="Name:"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idBox" />
+
+    <TextView
+        android:id="@+id/idBox"
+        android:layout_width="238dp"
+        android:layout_height="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameV"
+        android:layout_width="182dp"
+        android:layout_height="26dp"
+        app:layout_constraintEnd_toStartOf="@+id/boxImage"
+        app:layout_constraintStart_toEndOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/idBox" />
+
+    <TextView
+        android:id="@+id/partsV"
+        android:layout_width="184dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/boxImage"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/parts"
+        app:layout_constraintTop_toBottomOf="@+id/nameV" />
+
+    <TextView
+        android:id="@+id/realeasedV"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/boxImage"
+        app:layout_constraintStart_toEndOf="@+id/realeased"
+        app:layout_constraintTop_toBottomOf="@+id/partsV" />
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="120dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginStart="3dp"
+        android:text="see parts"
+        app:layout_constraintEnd_toStartOf="@+id/boxImage"
+        app:layout_constraintStart_toEndOf="@+id/realeased"
+        app:layout_constraintTop_toBottomOf="@+id/realeasedV" />
+</android.support.constraint.ConstraintLayout>
