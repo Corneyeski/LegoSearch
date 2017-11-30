@@ -30,7 +30,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
-            android:id="@+id/search"
+            android:id="@+id/imageView"
             android:layout_width="32dp"
             android:layout_height="30dp"
             android:layout_marginBottom="13dp"
@@ -41,8 +41,7 @@
             app:layout_constraintEnd_toStartOf="@+id/textSearch"
             app:layout_constraintStart_toEndOf="@+id/imageButton"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="?android:attr/actionModeWebSearchDrawable"
-            tools:targetApi="lollipop" />
+            app:srcCompat="?android:attr/actionModeWebSearchDrawable" />
 
         <ImageButton
             android:id="@+id/imageButton"

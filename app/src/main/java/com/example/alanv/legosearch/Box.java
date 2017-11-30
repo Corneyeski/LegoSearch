@@ -12,16 +12,17 @@ class Box {
     Long id;
     String name;
     int parts;
-    LocalDate realeased;
+    LocalDate released;
+    String urlImage;
 
     public Box() {
     }
 
-    public Box(Long id, String name, int parts, LocalDate realeased) {
+    public Box(Long id, String name, int parts, LocalDate released, String urlImage) {
         this.id = id;
         this.name = name;
         this.parts = parts;
-        this.realeased = realeased;
+        this.released = released;
     }
 
     Map<String, Object> toMap() {
@@ -30,7 +31,7 @@ class Box {
         map.put("id",id);
         map.put("name",name);
         map.put("parts",parts);
-        map.put("realeased",realeased);
+        map.put("released", released);
 
         return map;
     }

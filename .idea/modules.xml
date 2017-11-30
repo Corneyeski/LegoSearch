@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LegoSearch.iml" filepath="$PROJECT_DIR$/LegoSearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/LegoSearch.iml" filepath="$PROJECT_DIR$/.idea/LegoSearch.iml" />
+      <module fileurl="file://C:\Users\jlopez\StudioProjects\LegoSearch\LegoSearch.iml" filepath="C:\Users\jlopez\StudioProjects\LegoSearch\LegoSearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

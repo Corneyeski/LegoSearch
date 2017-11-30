@@ -27,7 +27,7 @@
         app:layout_constraintTop_toBottomOf="@+id/name" />
 
     <TextView
-        android:id="@+id/realeased"
+        android:id="@+id/released"
         android:layout_width="73dp"
         android:layout_height="23dp"
         android:layout_marginTop="8dp"
@@ -82,7 +82,7 @@
         android:layout_height="20dp"
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toStartOf="@+id/boxImage"
-        app:layout_constraintStart_toEndOf="@+id/realeased"
+        app:layout_constraintStart_toEndOf="@+id/released"
         app:layout_constraintTop_toBottomOf="@+id/partsV" />
 
     <Button
@@ -93,6 +93,6 @@
         android:layout_marginStart="3dp"
         android:text="see parts"
         app:layout_constraintEnd_toStartOf="@+id/boxImage"
-        app:layout_constraintStart_toEndOf="@+id/realeased"
+        app:layout_constraintStart_toEndOf="@+id/released"
         app:layout_constraintTop_toBottomOf="@+id/realeasedV" />
 </android.support.constraint.ConstraintLayout>
